@@ -1,0 +1,110 @@
+.App {
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: $fontDefault;
+    font-weight: 400;
+
+    h1,h2,h3,h4,h5,h6,p {
+        margin: 0;
+    }
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+button, .button {
+    background-color: $darkPink;
+    border: none;
+    cursor: pointer;
+    font-family: $fontDefault;
+    font-weight: 300;
+    color: white;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+a,  a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.front {
+    z-index: 1;
+}
+
+.back {
+    z-index: -1;
+}
+
+.flex {
+    display: flex;
+
+    &-wrap {
+        flex-wrap: wrap;
+    }
+    &-1 {
+        flex: 1;
+    }
+    &-2 {
+        flex: 2;
+    }
+    &-3 {
+        flex: 3;
+    }
+    &-4 {
+        flex: 4;
+    }
+    &-column {
+        flex-direction: column;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-se {
+        justify-content: space-evenly;
+    }
+    &-jc-fe {
+        justify-content: flex-end;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+    &-ai-fs {
+        align-items: flex-start;
+    }
+    &-ai-fe {
+        align-items: flex-end;
+    }
+}
+
+input {
+    &:focus {
+        outline: none;
+    }
+}
+
+.title {
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    p {
+        color: grey;
+        margin-top: .5em;
+    }
+}

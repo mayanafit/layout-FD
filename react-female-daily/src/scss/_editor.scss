@@ -1,0 +1,34 @@
+.editor {
+    &_card {
+        &:not(:last-child) {
+            margin-right: 2.3em;
+        }
+    }
+    
+    &_figure {
+        height: 4rem;
+
+        .figure_image {
+            img {
+                margin-right: 1em;
+                margin-left: 1em;
+                border-radius: 50%;
+                width: 3.5em;
+                margin-bottom: -1em;
+            }
+        }
+
+        .figure_name {
+            h4 {
+                margin-bottom: 0.2em;
+                font-size: .9em;
+            }
+            
+            p {
+                font-size: .7em;
+                color: grey;
+                margin-bottom: 0.3em;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.product {
+    border: .5px $lightGrey solid;
+    width: 12rem;
+    padding: 1em;
+    border-radius: .5rem;
+    background-color: white;
+    &_image {
+        width: 100%;
+    }
+
+    &_rating {
+        font-size: 1rem;
+        margin-top: .5em;
+        img {
+            width: 1em;
+        }
+
+        span {
+            &:first-child {
+                font-weight: 700;
+                margin-right: 0.4em;
+            }
+
+            &:last-child {
+                margin-left: 0.4em;
+            }
+
+            .addon {
+                color: $darkPink;
+            }
+        }
+    }
+
+    &_description {
+        h3, p:not(:last-child) {
+            margin-bottom: 0.5em;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-size: 1em;
+            font-weight: 700;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+
+        p {
+            font-size: 1em;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+            &:last-child {
+                color: grey;
+            }
+        }
+
+        .addon {
+            color: $starColor;
+            font-weight: 700;
+            margin-top: .5em;
+        }
+    }
+}

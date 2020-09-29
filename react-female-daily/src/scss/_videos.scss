@@ -1,0 +1,21 @@
+.videos {
+    margin-top: 3em;
+
+    &_content {
+        margin-top: 2em;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    &_column {
+        iframe {
+            width: 100%;
+            height: 100%;
+            &:last-child {
+                margin-top: 2em;
+            }
+        }
+    }
+}

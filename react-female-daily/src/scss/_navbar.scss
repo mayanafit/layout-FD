@@ -1,0 +1,71 @@
+.navbar {
+    &_upper {
+        height: 4rem;
+        padding-left: 1em;
+        border-bottom: .5px solid $lightGrey;;
+        img {
+            width: 10rem;
+        }
+
+        .navbar_hamburger {
+            > span {
+                display: block;
+                height: 3px;
+                background-color: black;
+                width: 2rem;
+                margin-bottom: .4em;
+    
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .navbar_input {
+            font-size: 1.2em;
+            height: 2.5rem;
+            border: .5px solid $lightGrey;
+            padding: .2em .5em;
+            border-radius: .2em;
+            width: 52rem;
+            input {
+                width: 90%;
+                border: none;
+                margin-left: .5em;
+            }
+        }
+
+        button {
+            height: 100%;
+            width: 12rem;
+            
+            .user_icon {
+                font-size: 1.5em;
+                font-weight: 100;
+                margin: 0 .5em;
+            }
+        }
+    }
+
+    &_lower {
+        height: 2.5rem;
+        border-bottom: .5px solid $lightGrey;
+        ul {
+            list-style: none;
+            padding: 0;
+            padding-top: .6em;
+            li {
+                font-size: .9rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                &:not(:last-child) {
+                    margin-right: 1.5em;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.review-card {
+    width: 17rem;
+    height: 15rem;
+    border: .5px solid $lightGrey;
+    padding: 1em;
+    border-radius: .4rem;
+    &_product {
+        img {
+            width: 20%;
+            margin-right: 1.5em;
+        }
+
+        h3 {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: .9em;
+        }
+    }
+
+    &_comment {
+        p {
+            margin-top: 1em;
+            font-size: .8em;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+
+        span {
+            font-size: .8em;
+            color: $darkPink;
+        }
+    }
+}
+
+.review {
+    margin: 2em 0;
+    &_content {
+        max-width: 100%;
+    }
+
+    &_card {
+        margin-top: 1em;
+    }
+    
+    &_figure {
+        height: 4rem;
+
+        &_image {
+            img {
+                border-radius: 50%;
+                width: 3.5em;
+            }
+        }
+
+        &_name {
+            margin-top: 1em;
+            text-align: center;
+            h4 {
+                margin-bottom: 0.2em;
+                font-size: .9em;
+            }
+            
+            p {
+                font-size: .7em;
+                color: grey;
+                margin-bottom: 0.3em;
+            }
+        }
+    }
+}

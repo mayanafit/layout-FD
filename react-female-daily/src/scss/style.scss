@@ -1,0 +1,92 @@
+@import "variables";
+@import "globals";
+@import "navbar";
+@import "ads";
+@import "editor";
+@import "product";
+@import "skin";
+@import "article";
+@import "review";
+@import "figure";
+@import "videos";
+
+.brand {
+    margin-bottom: 3em;
+    img {
+        width: 80%;
+    }
+
+    &_description {
+        margin-top: 2em;
+        h3 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: .7em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+footer {
+    border-top: .5px $lightGrey solid;
+    margin-bottom: 3em;
+    .footer {
+        margin: 0 10em;
+        margin-top: 2em;
+        &_menu {
+            .menu {
+                margin: .5em 0;
+                font-weight: 700;
+            }
+            img {
+                width: 10em;
+                margin-top: 1em;
+            }
+            p {
+                margin-top: .5em;
+                color: gray;
+            }
+        }
+
+        &_link {
+            p {
+                font-weight: 700;
+                margin-bottom: 1em;
+            }
+            img {
+                width: 50%;
+                margin-bottom: 3em;
+                &:first-child {
+                    margin-right: 2em;
+                }
+            }
+
+            &_icon {
+                font-size: 2em;
+                .icon {
+                    &:not(:last-child) {
+                        margin-right: .5em;
+                    }
+
+                    &_facebook {
+                        color: #3b5998;
+                    }
+
+                    &_twitter {
+                        color: #55acee;
+                    }
+
+                    &_instagram {
+                        color: #428bca;
+                    }
+
+                    &_youtube {
+                        color: #d42428;
+                    }
+                }
+            }
+        }
+    }
+}

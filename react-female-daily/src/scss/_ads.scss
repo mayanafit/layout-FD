@@ -1,0 +1,38 @@
+.ads {
+    background-color: $greyAds;
+    margin: 0 auto;
+    border: 1px solid rgb(143, 142, 142);
+    position: relative;
+    width: 90%;
+
+    p {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+    }
+
+    &_first {
+        margin-top: 0.8em;
+        height: 3.125rem;
+    }
+
+    &_second {
+        margin-top: 2em;
+        margin-bottom: 3em;
+        height: 15.625rem;
+    }
+
+    &_third {
+        height: 15.625rem;
+        width: 18.75rem;
+        margin-top: 6em;
+    }
+
+    &_fourth {
+        height: 3.125rem;
+    }
+}
