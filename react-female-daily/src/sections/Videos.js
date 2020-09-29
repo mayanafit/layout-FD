@@ -7,7 +7,7 @@ const Videos = () => {
         <section className="container videos">
             <div className="flex flex-jc-sb flex-ai-fe">
                 <Title title="Latest Videos" subtitle="Watch and learn, ladies"/>
-                <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
             </div>
             <Row className="videos_content">
                 <Col sm="12" md="8">

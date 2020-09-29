@@ -9,7 +9,7 @@ const Trending = () => {
         <section className="container" style={{marginTop: '3em', marginBottom: '3em'}}>
             <div className="flex flex-jc-sb flex-ai-fe" style={{marginBottom: '2em'}}>
                 <Title title="Trending This Week" subtitle="See our weekly most reviewed products"/>
-                <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
             </div>
             <Row>
                 {

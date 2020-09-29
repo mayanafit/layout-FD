@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
 import { ProductCard } from '../libraries';
 import bedak from '../assets/products/bedak.jpg';
 

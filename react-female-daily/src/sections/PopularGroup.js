@@ -7,7 +7,7 @@ const PopularGroup = () => {
         <section className="popular container">
             <div className="popular_title flex flex-jc-sb flex-ai-fe">
                 <Title title="Popular Groups" subtitle="Where the beauty TALK are"/>
-                <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
             </div>
             <Row>
                 <Col>

@@ -13,7 +13,7 @@ const Brand = () => {
         <section className="container brand">
             <div className="flex flex-jc-sb flex-ai-fe" style={{marginBottom: '2em'}}>
                 <Title title="Top Brands" subtitle="We all know and love"/>
-                <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
             </div>
             <Row className="flex flex-ai-c">
                 <Col sm="12" md="2">

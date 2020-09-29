@@ -1,8 +1,6 @@
 import React from 'react';
-import { Col, Row } from 'reactstrap';
 import { ReviewCard, Title } from '../libraries';
 import { useSelector } from 'react-redux';
-import EditorChoices from './EditorChoices';
 
 const Review = () => {
     const {reviews} = useSelector(state => state);
@@ -13,7 +11,7 @@ const Review = () => {
                 <div className="review_content">
                     <div className="flex flex-jc-sb flex-ai-fe">
                         <Title title="Latest Reviews" subtitle="So you can make better purchase decision"/>
-                        <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                        <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
                     </div>
                     <div className="flex review_card">
                         {   

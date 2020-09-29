@@ -10,7 +10,7 @@ const Articles = () => {
         <section className="article container">
             <div className="flex flex-jc-sb flex-ai-fe">
                 <Title title="Latest Articles" subtitle="So you can make better purchase decision"/>
-                <p>See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
+                <p className="see-more">See more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{">"}</p>
             </div>
             <Row>
                 {
