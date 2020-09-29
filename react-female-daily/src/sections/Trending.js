@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Title, ProductCard } from '../libraries';
 import { useSelector } from 'react-redux';
+import foundation from '../assets/products/foundation.jpg';
 
 const Trending = () => {
     const { choices } = useSelector(state => state)
@@ -14,11 +15,14 @@ const Trending = () => {
             <Row>
                 {
                     choices && choices.map((choice, index) => (
-                        <Col key={index}>
+                        <Col sm="12" md="2" key={index}>
                             <ProductCard name={choice.product.name} rating={choice.product.rating} description={choice.product.description} image={choice.product.image} />
                         </Col>
                     ))
                 }
+                 <Col sm="12" md="2">
+                    <ProductCard name="Foundation" rating="3" description="foundation with matte" image={foundation} />
+                </Col>
             </Row>
         </section>
     )
